@@ -1,4 +1,3 @@
-
     var getMood
     var setMood
 
