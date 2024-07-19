@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkslategray;
+    color: aliceblue;
+  }
+
+  h1{
+    margin: 3em;
+  } 
+  p{
+    margin: 2em;
+  }
+
+  input {
+    border-radius: 2em;
+    border-style: none;
+    margin-top: 2em; 
+    padding: 1em;
+    width: 30%;
+    text-align: left;
+  }
+
+  button {
+    width: 10%;
+    border-style: none;
+    border-radius: 2em;
+    font-size: 1.5em;
+    margin: 4em 1em 3em 1em;
+    padding: 0.6em;
+    font-family: monospace;
+  }
+
+  button:hover{
+    opacity: 0.8;
+  }
+
+
+ /*  0x34A00b87c502537643aF8b95478690651bCC7B3b */
+ /* [
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_mood",
+				"type": "string"
+			}
+		],
+		"name": "setMood",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getMood",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+] */
