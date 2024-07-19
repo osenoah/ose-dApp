@@ -8,18 +8,7 @@
     <link rel="stylesheet" href="dApp.css">
 </head>
 <body>
-
-
-
-    <div>
-        <h1>OSE dApp!</h1>
-        <p>Here we can set or get the mood:</p>
-        <label for="mood">Input Mood:</label> <br />
-        <input type="text" id="mood" />
-    <br>
-        <button onclick="getMood()">Get Mood</button>
-        <button onclick="setMood()">Set Mood</button>
-        <script>
+<script>
     var getMood
     var setMood
 </script>
@@ -86,6 +75,16 @@ const MoodContractABI = [{
               });
             }
     </script>
+
+
+    <div>
+        <h1>OSE dApp!</h1>
+        <p>Here we can set or get the mood:</p>
+        <label for="mood">Input Mood:</label> <br />
+        <input type="text" id="mood" />
+    <br>
+        <button onclick="getMood()">Get Mood</button>
+        <button onclick="setMood()">Set Mood</button>
     <p id="showMood"></p>
     </div>
     
